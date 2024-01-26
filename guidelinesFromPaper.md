@@ -12,7 +12,7 @@ There are no 1-second time spans, where there are more than 6 [luminance transit
  4. Have a summed area (including adjoining or nearby areas that are [sufficiently synchronized](#sufficiently-synchronized-working-value) to be treated as the same transition) that is equal to or greater than the [potentially hazardous area threshold](#potentially-hazardous-area-threshold).
 
 ## Proposed Definitions (Normative)
-### Counts
+### Counts (transition counts)
 Number of [luminance transitions](#luminance-transition) or [red transitions](#red-transition) that are not parts of [fast flashes](#fast-flashes).
 
 _Note:_ Luminance transitions and red transitions are counted separately.
@@ -44,7 +44,7 @@ For a luminance transition,
    - if the lower luminance state is <80% of the **reference luminance** (see notes):
      - 10% of the reference luminance, or
    - else if the lower lunminance state is ≥80% of the **reference luminance**:
-     - a [Michelson contrast](#michelson-contrast-equation) between states of 1/17 
+     - a [Michelson contrast](#michelson-contrast-equation) between states of 1/17. 
 
 _Note:_ **Reference luminance** differs across technologies:
  - **For sRGB:** Both the peak and reference luminance for evaluation are a relative luminance of 1.0. The relative luminance (Y in the CIE XYZ color space, which ranges from 0 to 1) can be calculated with the transfer function specified in IEC 61966-2-1.  
@@ -71,15 +71,15 @@ _Note:_ This is a working value that may change as more is learned about photose
 ### Potentially hazardous area threshold
 An area or collection of areas where the combined area equals or exceeds:
  - **For content on a known screen size and typical viewing distance:**
-   - \>0.006 steradians of any 10-degree field of view (equivalent to 25% of any 10-degree field of view) at the typical viewing distance.
+   - 0.006 steradians of any 10-degree field of view (equivalent to 25% of any 10-degree field of view) at the typical viewing distance.
  - **For content only shown on televisions of unknown screen sizes:**
    - 25% of the screen.
- - **For content displayed on screens of unknown types and sizes:**
-   - 25% of any 416 × 416 px subarea of the content (where the px unit is a CSS pixel that is defined as 0.0213° viewing angle), analyzed when content is displayed at its largest size (without the user applying additional zoom).
+ - **For content displayed on screens of unknown type and size:**
+   - 25% of any 416 × 416 px subarea of the content (where the "px" unit is a CSS pixel that is defined as 0.0213° viewing angle), analyzed when content is displayed at its largest size (without the user applying additional zoom).
 
 _Note:_ A 23-inch (diagonal) Full HD monitor viewed at arm’s length can be used as a reference screen for scaling content displayed on screens of unknown types and sizes. This reference screen is 1920 × 1080 px (i.e., 0.0213° CSS pixels) and viewed at 71.1 cm (28 in.). 
 
-_Note:_ See W3C CSS Values and Units Module Level 3 for dfinition of reference pixel (px).
+_Note:_ See W3C CSS Values and Units Module Level 3 for definition of reference pixel (px).
 
 _Note:_ The 25%-of-the-screen metric for television content was chosen for backwards compatibility. With modern displays and preferred viewing distances, the risk associated with 25% of the screen is increased compared to when the standards were first created.
 
