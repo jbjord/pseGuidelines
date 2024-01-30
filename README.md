@@ -1,6 +1,9 @@
 # Proposed Photosensitive Epilepsy Guidelines - pseGuidelines
 This guidance extends other international guidelines on photosensitive epilepsy hazards to accommodate changes in technologies and content formats since those guidelines were initially developed. The intent of this repository is to house guidelines that can be adopted and adapted by others, including standards bodies.
 
+ - [pseGuidelines.md](pseGuidelines.md) - guidelines available under a **CC BY 4.0 license** for potential adaptation.
+ - [guidelinesFromPaper.md](guidelinesFromPaper.md) - guidelines from the paper (submitted 2024) under a **CC BY-ND 4.0 license** (no derivatives).
+
 ## Other PSE Guidelines
  - ISO 9241-391: Ergonomics of human-system interaction—Part 391: Requirements, analysis and compliance test methods for the reduction of photosensitive seizures. https://www.iso.org/standard/56350.html
  - ITU-R BT.1702-2: Guidance for the reduction of photosensitive epileptic seizures caused by television. https://www.itu.int/rec/R-REC-BT.1702
