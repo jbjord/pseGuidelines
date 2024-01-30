@@ -1,7 +1,7 @@
 # Proposed Photosensitive Epilepsy Hazard guidance
 This section is informative.
 
-*This guidance extends other international guidelines to accommodate changes in technologies and content formats since those guidelines were initially developed. This text is the original text from the paper "International Guidelines for Photosensitive Epilepsy: Review and Gap Analysis" by J. Bern Jordan and Gregg C. Vanderheiden (to be submitted).*
+*This guidance extends other international guidelines to accommodate changes in technologies and content formats since those guidelines were initially developed. This text is the original text from the paper "International Guidelines for Photosensitive Epilepsy: Review and Gap Analysis" by J. Bern Jordan and Gregg C. Vanderheiden (submitted January 2024).*
 
 ## Proposed Provision (Normative)
 There are no 1-second time spans, where there are more than 6 [luminance transition](#luminance-transition) or [red transition](#red-transition) [counts](#counts) where the transitions meet all the following criteria:
@@ -113,3 +113,4 @@ where $R$, $G$, & $B$ are the normalized linear values of the red, green, and bl
 
 ## Acknowledgement (Informative)
 Compiled by J. Bern Jordan and Gregg C. Vanderheiden under partial funding from grants #90REGE0008 and #90REGE0024 from the National Institute on Disability, Independent Living, and Rehabilitation Research (NIDILRR), Administration for Community Living (ACL), Department of Health and Human Services (HHS), and a gift from Meta (Meta Platforms, Inc.). The contents are those of the authors and do not necessarily represent the views of, nor an endorsement by the funders.
+
