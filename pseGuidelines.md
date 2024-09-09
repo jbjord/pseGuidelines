@@ -1,7 +1,7 @@
 # Proposed Photosensitive Epilepsy Hazard guidance
 This section is informative.
 
-*This guidance extends other international guidelines to accommodate changes in technologies and content formats since those guidelines were initially developed. The basis for this text was originally from the paper "International Guidelines for Photosensitive Epilepsy: Review and Gap Analysis" by J. Bern Jordan and Gregg C. Vanderheiden (submitted January 2024). The [original guidance text from the paper](guidelinesFromPaper.md) is also available.*
+*This guidance extends other international guidelines to accommodate changes in technologies and content formats since those guidelines were initially developed. The basis for this text was originally from the paper "[International Guidelines for Photosensitive Epilepsy: Gap Analysis and Recommendations](https://doi.org/10.1145/3694790)" by J. Bern Jordan and Gregg C. Vanderheiden (accepted August 2024). ACM Transactions on Accessible Computing. The [original guidance text from the paper](guidelinesFromPaper.md) is also available.*
 
 ## Proposed Provision (Normative)
 There are no 1-second time spans, where there are more than 6 [luminance transition](#luminance-transition) or [red transition](#red-transition) [counts](#counts) where the transitions meet all the following criteria:
@@ -43,7 +43,7 @@ For a luminance transition,
  - a difference between a lower and higher level of luminance (going in either direction) of
    - if the lower luminance state is <80% of the **reference luminance** (see notes):
      - 10% of the reference luminance, or
-   - else if the lower lunminance state is ≥80% of the **reference luminance**:
+   - else if the lower luminance state is ≥80% of the **reference luminance**:
      - a [Michelson contrast](#michelson-contrast-equation) between states of 1/17. 
 
 _Note:_ **Reference luminance** differs across technologies:
@@ -51,7 +51,7 @@ _Note:_ **Reference luminance** differs across technologies:
  - **For standard dynamic range (SDR) television with standard color range (ITU-R BT.709) or wide color range (ITU-R BT.2020):** use the electro-optical transfer function in Annex 1 of ITU-R BT.1886 with both a reference luminance and screen luminance for white (_L<sub>W</sub>_) of 200 cd/m² and screen luminance for black (_L<sub>B</sub>_) of 0.0 cd/m².
  - **For Perceptual Quantization (PQ) high dynamic range (HDR) content:** use the reference luminance of 200 cd/m² and transfer functions specified in PQ tables in ITU-R BT.2100.
  - **For Hybrid Log-Gamma (HLG) HDR content:** use the reference luminance of 200 cd/m² and transfer functions specified in HLG tables in ITU-R BT.2100.
- - **For content to be displayed on known display hardware:** use the reference white luminance for the display, which is the peak luminance for SDR content. If the viewing environment is known, the reference luminance may be for vision adapted to that environment.
+ - **For content to be displayed on known display hardware:** use the reference white luminance value for the display, which is the peak luminance for SDR content. If the viewing environment is known, the reference luminance may be for vision adapted to that environment.
 
 _Note:_ For typical indoor viewing environments, a reference luminance of 200 cd/m² is appropriate, which leads to a critical transition difference of 20 cd/m² when the darker state is <160 cd/m².
 
@@ -62,9 +62,9 @@ _Note:_ For HDR content, it is assumed that the content has been mastered so tha
 _Note:_ Luma, often denoted Y', is not the same as relative luminance, which is often denoted Y. Calculating relative luminance Y accurately from luma also requires two other components (for example, the C<sub>B</sub> and C<sub>R</sub> components of the Y'C<sub>B</sub>C<sub>R</sub> color space).
 
 ### Qualifying duration (working value)
-The time over which a single transition may take place of 90 ms or less.
+The time over which a single transition may take place of 66 ms or less.
 
-_Note:_ A slow change in luminance or color that takes more than 90 ms to reach or exceed the [critical transition difference](#critical-transition-difference) does not count as a flash transition.
+_Note:_ A slow change in luminance or color that takes more than 66 ms to reach or exceed the [critical transition difference](#critical-transition-difference) does not count as a flash transition.
 
 _Note:_ This is a working value that may change as more is learned about photosensitive epilepsy. 
 
