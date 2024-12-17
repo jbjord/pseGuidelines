@@ -1,7 +1,9 @@
 # Proposed Photosensitive Epilepsy Hazard guidance
 This section is informative.
 
-*This guidance extends other international guidelines to accommodate changes in technologies and content formats since those guidelines were initially developed. The basis for this text was originally from the paper "[International Guidelines for Photosensitive Epilepsy: Gap Analysis and Recommendations](https://doi.org/10.1145/3694790)" by J. Bern Jordan and Gregg C. Vanderheiden (accepted August 2024). ACM Transactions on Accessible Computing. The [original guidance text from the paper](guidelinesFromPaper.md) is also available.*
+*This guidance extends other international guidelines to accommodate changes in technologies and content formats since those guidelines were initially developed. 
+The basis for this text was originally from the paper "[International Guidelines for Photosensitive Epilepsy: Gap Analysis and Recommendations](https://doi.org/10.1145/3694790)" by J. Bern Jordan and Gregg C. Vanderheiden (2024). ACM Transactions on Accessible Computing. Vol. 17. Pages 17:1 - 17:35. 
+The [original guidance text from the paper](guidelinesFromPaper.md) is also available.*
 
 ## Proposed Provision (Normative)
 There are no 1-second time spans, where there are more than 6 [luminance transition](#luminance-transition) or [red transition](#red-transition) [counts](#counts) where the transitions meet all the following criteria:
